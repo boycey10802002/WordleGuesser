@@ -6,91 +6,104 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>531</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Wordle Helper</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLineEdit" name="txt_guess">
-        <property name="placeholderText">
-         <string>STARE</string>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QComboBox" name="cbx_letter_01"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="btn_letter_01">
+          <property name="text">
+           <string>_</string>
+          </property>
+          <property name="tristate">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
       <item>
-       <widget class="QCheckBox" name="btn_letter_01">
-        <property name="text">
-         <string>CheckBox</string>
-        </property>
-        <property name="tristate">
-         <bool>true</bool>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QComboBox" name="cbx_letter_02"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="btn_letter_02">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>_</string>
+          </property>
+          <property name="tristate">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
       <item>
-       <widget class="QComboBox" name="cbx_letter_01"/>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QComboBox" name="cbx_letter_03"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="btn_letter_03">
+          <property name="text">
+           <string>_</string>
+          </property>
+          <property name="tristate">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
       <item>
-       <widget class="QCheckBox" name="btn_letter_02">
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="text">
-         <string>CheckBox</string>
-        </property>
-        <property name="tristate">
-         <bool>true</bool>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QComboBox" name="cbx_letter_04"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="btn_letter_04">
+          <property name="text">
+           <string>_</string>
+          </property>
+          <property name="tristate">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
       <item>
-       <widget class="QComboBox" name="cbx_letter_02"/>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="btn_letter_03">
-        <property name="text">
-         <string>CheckBox</string>
-        </property>
-        <property name="tristate">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="cbx_letter_03"/>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="btn_letter_04">
-        <property name="text">
-         <string>CheckBox</string>
-        </property>
-        <property name="tristate">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="cbx_letter_04"/>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="btn_letter_05">
-        <property name="text">
-         <string>CheckBox</string>
-        </property>
-        <property name="tristate">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="cbx_letter_05"/>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QComboBox" name="cbx_letter_05"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="btn_letter_05">
+          <property name="text">
+           <string>_</string>
+          </property>
+          <property name="tristate">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
      </layout>
     </item>
@@ -134,7 +147,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>531</width>
      <height>21</height>
     </rect>
    </property>
